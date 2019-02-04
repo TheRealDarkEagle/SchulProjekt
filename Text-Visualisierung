@@ -1,0 +1,19 @@
+Klasse:Controller (Ein/Ausgabe der Sprache) 
+Gibt String an Searcher weiter 
+Gibt returnWert dessen aus 
+
+Klasse: Searcher 
+Durchsucht eingebenen String nach Schlagwörtern, z.b. Wecker/Spiel/Game/Uhrzeit/etc.
+      
+Gibt String an angesprochene Unterklasse weiter 
+
+Klasse: Games/Spiele
+Besitzt Spiellogik, erstellt gegebenenfalls Fenster und Initialisiert alles für das Spiel 
+Kennt Die Steuerrungselemente des Spieles
+
+Klasse: Wecker 
+Besitzt alle Befehle welche für den Wecker zuständig sind.
+-	Gibt Weckzeit zurück
+-	Erstellt Wecker
+-	Gibt Anzahl der gestellten Wecker zurück
+
